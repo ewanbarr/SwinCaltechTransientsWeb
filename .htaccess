@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteBase /~ebarr/swincaltw/
+RewriteBase /~jcooke/SUT-CIT/
 RewriteRule ^(.*).html$ index.php?$1 [L,QSA]
 

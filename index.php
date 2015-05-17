@@ -31,7 +31,7 @@ for ($i=0; $i<count($akeys); $i++) {
 <html lang="en">
 
 <head>
-  <title>SKSW - <?echo $all[$akey]?></title>
+  <title>SUT-CIT - <?echo $all[$akey]?></title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -44,7 +44,9 @@ for ($i=0; $i<count($akeys); $i++) {
     <div id="main">
       <table class="wrapper" style="width: 662px; height: 600px;">
         <tr style="display: none;"><th></th></tr>
-        <tr><td id="keck_sunset">
+<!--        <tr><td id="keck_sunset">
+-->
+        <tr><td id="FRBs.gif">
           <div class="content">
           <?include($akey_page);?>
           </div>
